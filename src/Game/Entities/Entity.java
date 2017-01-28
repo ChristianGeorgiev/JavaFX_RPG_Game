@@ -9,6 +9,7 @@ public abstract class Entity {
 
     protected int width, height;
 
+
     public float getX() {
         return x;
     }

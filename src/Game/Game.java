@@ -70,7 +70,6 @@ public class Game implements Runnable {
         if (State.getState() != null){
             State.getState().render(g);
         }
-
         //End Drawing
 
         bs.show();
