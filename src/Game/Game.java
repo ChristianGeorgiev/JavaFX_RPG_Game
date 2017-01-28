@@ -75,7 +75,7 @@ public class Game implements Runnable {
         bs.show();
         g.dispose();
     }
-
+        //This is a new comment to test git
     public void run() {
         init();
         int fps = 60;
