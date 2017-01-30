@@ -24,16 +24,16 @@ public class Player extends Creature{
         yMove = 0;
 
         if (game.getKeyManager().up){
-            yMove = -speed;
+            yMove = -speed-2;
         }
         if (game.getKeyManager().down){
-            yMove = speed;
+            yMove = speed+2;
         }
         if (game.getKeyManager().left){
-            xMove = -speed;
+            xMove = -speed-2;
         }
         if (game.getKeyManager().right){
-            xMove = speed;
+            xMove = speed+2;
         }
 
     }
