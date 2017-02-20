@@ -2,15 +2,14 @@ package Game;
 
 
 import Game.Graphics.Assets;
+import Game.Graphics.Display;
 import Game.Input.KeyManager;
 import Game.States.GameState;
 import Game.States.MenuState;
 import Game.States.State;
-import com.sun.javafx.iio.ImageLoader;
 
 import java.awt.*;
 import java.awt.image.BufferStrategy;
-import java.awt.image.BufferedImage;
 
 public class Game implements Runnable {
     private Display display;
